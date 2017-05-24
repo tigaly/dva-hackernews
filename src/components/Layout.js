@@ -8,7 +8,7 @@ const Layout = (props) => {
       <div className={styles.header}>
         <div className={styles.inner}>
           <Link to="/">
-            <img role="presentation" className={styles.logo} src="https://zos.alipayobjects.com/rmsportal/AsASAiphPWWUJWG.png" />
+            <img alt="" role="presentation" className={styles.logo} src="https://zos.alipayobjects.com/rmsportal/AsASAiphPWWUJWG.png" />
           </Link>
           <Link activeClassName={styles.active} to="/top">Top</Link>
           <Link activeClassName={styles.active} to="/new">New</Link>

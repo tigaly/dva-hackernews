@@ -40,7 +40,7 @@ export default {
       }
 
       function doWatchList(type) {
-        let unwatchListFn = watchList(type, (ids) => {
+        const unwatchListFn = watchList(type, (ids) => {
           dispatch({ type: 'saveList', payload: { type, ids } });
           dispatch({ type: 'fetchList', payload: { type, page } });
         });
