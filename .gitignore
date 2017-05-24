@@ -1,5 +1,8 @@
 dist
 node_modules
-.DS_Store
-tmp
+yarn.lock
 npm-debug.log
+.idea
+yarn-error.log
+.DS_Store
+
